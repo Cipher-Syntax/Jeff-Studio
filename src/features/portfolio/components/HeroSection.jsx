@@ -12,9 +12,9 @@ const HeroSection = () => {
                     </p>
 
                     <h1 className="font-sans font-black text-[clamp(64px,8vw,100px)] leading-[0.9] tracking-[-1px] text-slate-900 dark:text-[#d8edf8] mb-4">
-                        JEFFERSON<br />
+                        JEFFERSON T.<br />
                         <span className="text-transparent" style={{ WebkitTextStroke: '1.5px #5eafd4' }}>
-                            ALAH TOONG
+                            JEFF | STUDIO
                         </span>
                     </h1>
 

@@ -20,8 +20,10 @@ const filters = [
 const plates = [
     { id: 'plate-01', title: 'Orthographic Projection', tag: 'freehand', label: 'Plate 01', image: null },
     { id: 'plate-02', title: <>Floor Plan &mdash; Ground Floor</>, tag: 'plans', label: 'Plate 02', image: null },
-    // Add image property to the rest...
     { id: 'plate-03', title: 'Front & Side Elevation', tag: 'elevations', label: 'Plate 03', image: null },
+    { id: 'plate-04', title: 'Cad', tag: 'cad', label: 'Plate 04', image: null },
+    { id: 'plate-05', title: '3D Render', tag: '3d', label: 'Plate 05', image: null },
+    { id: 'plate-06', title: 'Front & Side Elevation', tag: 'plans', label: 'Plate 06', image: null },
 ];
 
 const PortfolioSection = () => {
