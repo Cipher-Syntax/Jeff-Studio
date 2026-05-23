@@ -1,28 +1,29 @@
+// src/features/portfolio/components/HeroSection.jsx
 import Me from '../../../assets/images/me.png';
 
 const HeroSection = () => {
     return (
-        <section id="hero" className="grid-bg min-h-screen pt-[130px] px-[6%] pb-[80px] flex items-center relative border-t border-gray-200 dark:border-[#1c4a6a] transition-colors duration-300">
+        <section id="hero" className="grid-bg min-h-screen pt-[130px] px-5 sm:px-[6%] pb-[80px] flex items-center relative border-t border-gray-200 dark:border-[#1c4a6a] transition-colors duration-300 overflow-hidden">
             <div className="w-full max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-[60px] items-center">
 
                 {/* Left Text Content */}
-                <div>
-                    <p className="font-mono text-[11px] tracking-[3px] text-[#3d8ab5] border-l-2 border-[#3d8ab5] pl-3.5 mb-5 uppercase">
+                <div className="w-full">
+                    <p className="font-mono text-[9px] sm:text-[11px] tracking-[2px] sm:tracking-[3px] text-[#3d8ab5] border-l-2 border-[#3d8ab5] pl-3.5 mb-5 uppercase">
                         BSIT &mdash; Architectural Drafting Technology
                     </p>
 
-                    <h1 className="font-sans font-black text-[clamp(64px,8vw,100px)] leading-[0.9] tracking-[-1px] text-slate-900 dark:text-[#d8edf8] mb-4">
+                    <h1 className="font-sans font-black text-[clamp(36px,10vw,100px)] whitespace-nowrap leading-[1.1] sm:leading-[0.9] tracking-[-1px] text-slate-900 dark:text-[#d8edf8] mb-4">
                         JEFFERSON T.<br />
                         <span className="text-transparent" style={{ WebkitTextStroke: '1.5px #5eafd4' }}>
                             JEFF | STUDIO
                         </span>
                     </h1>
 
-                    <p className="font-mono text-[12px] text-[#5eafd4] tracking-[1px] mb-3.5">
+                    <p className="font-mono text-[10px] sm:text-[12px] text-[#5eafd4] tracking-[1px] mb-3.5">
                         Architectural Drafter &middot; CAD Specialist &middot; Design Enthusiast
                     </p>
 
-                    <p className="text-[15px] font-light text-slate-600 dark:text-[#82b8d4] leading-[1.75] max-w-[480px] mb-9">
+                    <p className="text-[14px] sm:text-[15px] font-light text-slate-600 dark:text-[#82b8d4] leading-[1.75] max-w-[480px] mb-9">
                         Creating precise technical drawings, spatial designs, and architectural
                         visualizations. Transforming concepts into detailed working drawings
                         with accuracy and intent.
