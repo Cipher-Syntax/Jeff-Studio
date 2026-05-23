@@ -12,9 +12,9 @@ const HeroSection = () => {
                         BSIT &mdash; Architectural Drafting Technology
                     </p>
 
-                    <h1 className="font-sans font-black text-[clamp(36px,10vw,100px)] whitespace-nowrap leading-[1.1] sm:leading-[0.9] tracking-[-1px] text-slate-900 dark:text-[#d8edf8] mb-4">
-                        JEFFERSON T.<br />
-                        <span className="text-transparent" style={{ WebkitTextStroke: '1.5px #5eafd4' }}>
+                    <h1 className="font-sans font-black text-[clamp(44px,12vw,100px)] leading-[1.05] sm:leading-[0.9] tracking-[-1px] text-slate-900 dark:text-[#d8edf8] mb-4">
+                        <span className="block whitespace-nowrap">JEFFERSON T.</span>
+                        <span className="block whitespace-nowrap text-transparent [-webkit-text-stroke:0.75px_#5eafd4] sm:[-webkit-text-stroke:1.5px_#5eafd4]">
                             JEFF | STUDIO
                         </span>
                     </h1>
