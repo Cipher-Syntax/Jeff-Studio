@@ -1,7 +1,25 @@
 
 const colors = {
+	tokens: {
+		bg: '#07111f',
+		bg2: '#0a1a2e',
+		bg3: '#0d2240',
+		bg4: '#102850',
+		accent: '#5eafd4',
+		accent2: '#3d8ab5',
+		accent3: '#88c8e8',
+		dim: '#2a5f85',
+		text: '#d8edf8',
+		text2: '#82b8d4',
+		text3: '#4a7f9a',
+		border: '#1c4a6a',
+		border2: '#2a6a90',
+		grid: 'rgba(30,80,120,0.35)',
+		grid2: 'rgba(30,80,120,0.12)',
+	},
+
 	brand: {
-		primary: '#5eafd4',   // accent base
+		primary: '#5eafd4',
 		secondary: '#3d8ab5',
 		tertiary: '#88c8e8',
 		dim: '#2a5f85',

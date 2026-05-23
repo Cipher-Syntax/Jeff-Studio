@@ -1,9 +1,26 @@
-import React from 'react'
+import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
+import SkillsSection from '../components/SkillsSection';
+import PortfolioSection from '../components/PortfolioSection';
+import FeaturedProjectSection from '../components/FeaturedProjectSection';
+import CertificatesSection from '../components/CertificatesSection';
+import ContactSection from '../components/ContactSection';
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll';
 
 const LandingPage = () => {
-    return (
-        <div>LandingPage</div>
-    )
-}
+    useFadeInOnScroll();
 
-export default LandingPage
+    return (
+        <>
+            <HeroSection />
+            <AboutSection />
+            <SkillsSection />
+            <PortfolioSection />
+            <FeaturedProjectSection />
+            <CertificatesSection />
+            <ContactSection />
+        </>
+    );
+};
+
+export default LandingPage;

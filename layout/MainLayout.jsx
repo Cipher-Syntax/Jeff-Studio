@@ -1,14 +1,13 @@
 import { Outlet } from 'react-router-dom';
-import { NavBar, Footer } from '../src/components/common';
+import { NavBar } from '../src/components/common';
 
 const MainLayout = () => {
     return (
-        <div className="expressive-shell min-h-screen antialiased">
+        <div className="expressive-shell min-h-screen antialiased grid-bg">
             <NavBar />
-            <main className="pt-20">
+            <main>
                 <Outlet />
             </main>
-            <Footer />
         </div>
     );
 };
