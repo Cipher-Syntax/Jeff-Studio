@@ -38,17 +38,15 @@ const HeroSection = () => {
                     </div>
                 </div>
 
-                {/* Right Decorative Elements */}
-                <div className="hidden lg:block">
-                    <div className="w-[270px] h-[310px] ml-auto bg-slate-50 dark:bg-[#0d2240] border border-gray-200 dark:border-[#2a6a90] relative flex items-center justify-center p-2 before:content-[''] before:absolute before:w-5 before:h-5 before:border-solid before:border-[#5eafd4] before:-top-1.5 before:-left-1.5 before:border-t-2 before:border-l-2 before:border-b-0 before:border-r-0 after:content-[''] after:absolute after:w-5 after:h-5 after:border-solid after:border-[#5eafd4] after:-bottom-1.5 after:-right-1.5 after:border-b-2 after:border-r-2 after:border-t-0 after:border-l-0 transition-colors duration-300">
-                        {/* Changed from <image> to <img>, removed placeholder text, added object-cover */}
+                <div className="flex flex-col items-center lg:block mt-12 lg:mt-0">
+                    <div className="w-[270px] h-[310px] lg:ml-auto bg-slate-50 dark:bg-[#0d2240] border border-gray-200 dark:border-[#2a6a90] relative flex items-center justify-center p-2 before:content-[''] before:absolute before:w-5 before:h-5 before:border-solid before:border-[#5eafd4] before:-top-1.5 before:-left-1.5 before:border-t-2 before:border-l-2 before:border-b-0 before:border-r-0 after:content-[''] after:absolute after:w-5 after:h-5 after:border-solid after:border-[#5eafd4] after:-bottom-1.5 after:-right-1.5 after:border-b-2 after:border-r-2 after:border-t-0 after:border-l-0 transition-colors duration-300">
                         <img
                             src={Me}
                             alt="Jefferson Alah Toong"
                             className="w-full h-full object-cover border border-gray-200 dark:border-[#2a6a90]"
                         />
                     </div>
-                    <p className="font-mono text-[9px] text-slate-500 dark:text-[#4a7f9a] mt-2 text-right uppercase">
+                    <p className="font-mono text-[9px] text-slate-500 dark:text-[#4a7f9a] mt-2 text-center lg:text-right uppercase">
                         ELEV. FRONT &middot; A-01
                     </p>
                 </div>
