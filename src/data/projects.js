@@ -22,15 +22,12 @@ const addModules = (modules, category) => {
 
     paths.forEach(path => {
         const basename = getBasename(path);
-        let title = basename.replace(/_/g, ' ');
-        // capitalize
-        title = title.charAt(0).toUpperCase() + title.slice(1);
         
         projectsData.push({
             id: basename.toLowerCase(),
-            title: title,
+            title: category,
             category: category,
-            image: modules[path],
+            image: modules[path].default || modules[path],
             alt: `${category} render ${basename}`
         });
     });
