@@ -2,33 +2,12 @@ import SectionHeader from './SectionHeader';
 
 const certificates = [
     {
-        id: 'autocad-essentials',
-        icon: <span aria-hidden="true">&#x1F3C5;</span>,
-        name: 'AutoCAD Essentials Training',
-        who: <>Autodesk &middot; 2024</>,
-        type: 'Completion Certificate',
-    },
-    {
-        id: 'drafting-seminar',
-        icon: <span aria-hidden="true">&#x1F396;</span>,
-        name: 'Architectural Drafting Seminar',
-        who: <>[University] &middot; 2023</>,
-        type: 'Attendance & Participation',
-    },
-    {
-        id: 'best-plate',
+        id: 'cum-laude',
         icon: <span aria-hidden="true">&#x1F3C6;</span>,
-        name: <>Best Plate &mdash; Drafting Competition</>,
-        who: <>Regional Level &middot; 2023</>,
-        type: '1st Place Award',
-    },
-    {
-        id: 'sketchup',
-        icon: <span aria-hidden="true">&#x1F4DC;</span>,
-        name: 'SketchUp Fundamentals',
-        who: <>Trimble &middot; 2024</>,
-        type: 'Online Certification',
-    },
+        name: 'Cum Laude',
+        who: <>BSIT &mdash; Architectural Drafting Technology</>,
+        type: 'Academic Distinction',
+    }
 ];
 
 const CertificatesSection = () => {

@@ -19,10 +19,7 @@ const skills = [
         items: [
             'AutoCAD 2D / 3D',
             'SketchUp Pro',
-            'Revit (basic)',
             'Lumion rendering',
-            'V-Ray for SketchUp',
-            'ArchiCAD (intro)',
         ],
     },
     {
@@ -41,12 +38,8 @@ const skills = [
         tag: 'TOOLS',
         title: 'Other Tools',
         items: [
-            'Adobe Photoshop',
             'Microsoft Office',
             'Scale model making',
-            'Physical plate layout',
-            'Cost estimation (basic)',
-            'Site surveying (basic)',
         ],
     },
 ];
