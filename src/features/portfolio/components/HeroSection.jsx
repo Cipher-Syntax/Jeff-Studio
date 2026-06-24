@@ -1,5 +1,5 @@
-// src/features/portfolio/components/HeroSection.jsx
 import Me from '../../../assets/images/me.png';
+import ResumePdf from '../../../assets/RESUME.pdf';
 
 const HeroSection = () => {
     return (
@@ -33,7 +33,7 @@ const HeroSection = () => {
                         <a href="#portfolio" className="font-mono text-[11px] tracking-[1.5px] bg-[#5eafd4] text-white dark:text-[#07111f] px-[26px] py-[13px] uppercase hover:bg-[#88c8e8] transition-colors">
                             View Portfolio
                         </a>
-                        <a href="#" className="font-mono text-[11px] tracking-[1.5px] text-[#5eafd4] border border-[#2a6a90] px-[26px] py-[13px] uppercase hover:border-[#5eafd4] transition-colors">
+                        <a href={ResumePdf} download="Jefferson_Toong_CV.pdf" className="font-mono text-[11px] tracking-[1.5px] text-[#5eafd4] border border-[#2a6a90] px-[26px] py-[13px] uppercase hover:border-[#5eafd4] transition-colors">
                             Download CV
                         </a>
                     </div>
