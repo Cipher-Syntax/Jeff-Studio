@@ -1,7 +1,6 @@
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import SkillsSection from '../components/SkillsSection';
-import PortfolioSection from '../components/PortfolioSection';
 import FeaturedProjectSection from '../components/FeaturedProjectSection';
 import CertificatesSection from '../components/CertificatesSection';
 import ContactSection from '../components/ContactSection';
@@ -15,7 +14,6 @@ const LandingPage = () => {
             <HeroSection />
             <AboutSection />
             <SkillsSection />
-            <PortfolioSection />
             <FeaturedProjectSection />
             <CertificatesSection />
             <ContactSection />

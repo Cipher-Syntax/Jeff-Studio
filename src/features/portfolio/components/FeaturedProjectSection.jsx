@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { projectsData } from '../../../data/projects';
+import SectionHeader from './SectionHeader';
 
 const FeaturedProjectSection = () => {
     // Select first 3 items for featured
     const featuredProjects = projectsData.slice(0, 3);
 
     return (
-        <section className="py-20 bg-gray-950 text-white">
-            <div className="max-w-7xl mx-auto px-6 lg:px-8">
-                <div className="flex justify-between items-end mb-12">
-                    <div>
-                        <h2 className="text-4xl font-bold mb-4">Selected Works</h2>
-                        <p className="text-gray-400 max-w-2xl">A curated selection of my latest 3D renders and architectural plans.</p>
+        <section className="py-24 px-[6%] bg-[#07111f] border-t border-[#1c4a6a] transition-colors duration-300 text-white">
+            <div className="max-w-[1200px] mx-auto w-full">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+                    <div className="flex-1 w-full">
+                        <SectionHeader number="03" title="PORTFOLIO" />
+                        <p className="text-[#82b8d4] text-[15px] max-w-[480px] mt-[-30px]">A curated selection of my latest 3D renders and architectural plans.</p>
                     </div>
                     <Link 
                         to="/projects" 
