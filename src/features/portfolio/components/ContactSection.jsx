@@ -41,9 +41,9 @@ const ContactSection = () => {
                             <p className="font-mono text-[10px] tracking-[2px] text-[#3d8ab5] mb-6 uppercase">
                                 SEND A MESSAGE
                             </p>
-                            <form 
-                                action="https://formspree.io/f/your_form_id_here" 
-                                method="POST" 
+                            <form
+                                action="https://formspree.io/f/mnjkjvpl"
+                                method="POST"
                                 className="flex flex-col gap-4"
                             >
                                 <div>
