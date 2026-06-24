@@ -15,7 +15,7 @@ const ProjectsPage = () => {
         <div className="min-h-screen bg-gray-900 text-white p-6 md:p-12">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-8 mt-5 flex flex-col items-start gap-4">
-                    <Link to="/" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors font-medium">
+                    <Link to="/" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors font-medium mt-5">
                         <span>&#8592;</span> Back to Home
                     </Link>
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Portfolio</h1>
