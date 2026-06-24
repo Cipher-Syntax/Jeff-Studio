@@ -8,12 +8,12 @@ const FeaturedProjectSection = () => {
     const featuredProjects = projectsData.slice(0, 3);
 
     return (
-        <section className="py-24 px-[6%] bg-white dark:bg-[#07111f] border-t border-slate-200 dark:border-[#1c4a6a] transition-colors duration-300">
+        <section className="dark py-24 px-[6%] bg-[#07111f] border-t border-[#1c4a6a] transition-colors duration-300">
             <div className="max-w-[1200px] mx-auto w-full">
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6 text-white">
                     <div className="flex-1 w-full">
                         <SectionHeader number="03" title="PORTFOLIO" />
-                        <p className="text-slate-600 dark:text-[#82b8d4] text-[15px] max-w-[480px] mt-[-30px]">A curated selection of my latest 3D renders and architectural plans.</p>
+                        <p className="text-[#82b8d4] text-[15px] max-w-[480px] mt-[-30px]">A curated selection of my latest 3D renders and architectural plans.</p>
                     </div>
                     <Link 
                         to="/projects" 
