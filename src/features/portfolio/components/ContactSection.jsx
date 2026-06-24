@@ -26,7 +26,7 @@ const ContactSection = () => {
 
                         <div className="flex flex-col gap-3">
                             {contacts.map((contact) => (
-                                <a key={contact.label} href={contact.href} className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-[18px] text-[14px] text-slate-700 dark:text-[#b0d4e8] bg-white/80 dark:bg-[#07111f]/80 px-4 py-[13px] border border-slate-200 dark:border-[#1c4a6a] transition-all duration-200 hover:border-[#3d8ab5] hover:text-[#5eafd4] dark:hover:border-[#3d8ab5] dark:hover:text-[#5eafd4]">
+                                <a key={contact.label} href={contact.href} target="_blank" rel="noopener noreferrer" className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-[18px] text-[14px] text-slate-700 dark:text-[#b0d4e8] bg-white/80 dark:bg-[#07111f]/80 px-4 py-[13px] border border-slate-200 dark:border-[#1c4a6a] transition-all duration-200 hover:border-[#3d8ab5] hover:text-[#5eafd4] dark:hover:border-[#3d8ab5] dark:hover:text-[#5eafd4]">
                                     <span className="font-mono text-[9px] tracking-[2px] text-[#3d8ab5] min-w-[64px] uppercase">
                                         {contact.label}
                                     </span>
