@@ -20,7 +20,7 @@ const ProjectsPage = () => {
                     {projectsData.map((project, index) => (
                         <div 
                             key={project.id} 
-                            className="break-inside-avoid relative group cursor-pointer overflow-hidden rounded-xl bg-gray-800"
+                            className="break-inside-avoid relative group cursor-pointer overflow-hidden bg-gray-800"
                             onClick={() => openLightbox(index)}
                         >
                             <img 
